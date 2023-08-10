@@ -32,16 +32,16 @@ public class ScheduleServer {
     public void releaseProcesses(){
         System.out.println("Releasing processes...");
     }
-    public void destory(){
-        System.out.println("Destorying...");
+    public void destroy(){
+        System.out.println("Destroying...");
     }
     public void destroySystemObjects(){
 	System.out.println("Destroying system objects...");
     }
-    public void destoryListeners(){
+    public void destroyListeners(){
         System.out.println("Destroying listeners...");
     }
-    public void destoryContext(){
+    public void destroyContext(){
         System.out.println("Destroying context...");
     }
     public void shutdown(){
